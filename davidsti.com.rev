@@ -1,0 +1,15 @@
+$ORIGIN 50.168.192.in-addr.arpa.
+$TTL 3H
+@       IN SOA  server.davidsti.com. root@davidsti.com. (
+                                        0       ; serial
+                                        1D      ; refresh
+                                        1H      ; retry
+                                        1W      ; expire
+                                        3H )    ; minimum
+
+@       IN      NS      server.davidsti.com.
+
+;host en la zona
+
+3       IN      PTR     server.davidsti.com.
+~                                                                      
